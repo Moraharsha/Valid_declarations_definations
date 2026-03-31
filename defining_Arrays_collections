@@ -76,3 +76,16 @@ Integer[] num = {1, 2, 3};   // {} → values
 System.out.println(num[0]);  // [] → access
 List<Integer> list = Arrays.asList(1, 2, 3); // no {}
 -------------------------------------------------------------------
+
+ student[] sts={
+                new student (4,"harsha",55),
+                new student (2,"vardhan",100),
+                new student (1,"bablu",100),
+                new student (5,"null",101),
+                new student (3,"shivani",99),
+        };
+while we are sending array of Objects to Student of Array Object we need to use curly braces
+
+ List<student> clist=new ArrayList<>(Arrays.asList(sts));  here we passing the student array sts to list , see think deep here
+-------------------------------------------------------------------------------------------------
+
